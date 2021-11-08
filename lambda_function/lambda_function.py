@@ -3,7 +3,7 @@ import logging
 import time
 
 region = 'ap-northeast-1'
-instance = 'database-1'
+instance = 'xxxxxxx'
 rds = boto3.client('rds', region_name=region)
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
